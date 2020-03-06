@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+            android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/txtshow"/>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="save"
+            android:id="@+id/btnSave"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="open"
+            android:id="@+id/btnOpen"/>
+    <ImageButton
+            android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/btnImage1"
+                 android:src="@drawable/ic_launcher"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+              android:text="Auto Save"
+            android:id="@+id/txtName"/>
+    <CheckBox
+            android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+            android:text="Auto Save"
+            android:id="@+id/chkAutosave"/>
+    <CheckBox
+            android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              style="?android:attr/starStyle"
+              android:id="@+id/star"/>
+    <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                android:id="@+id/rdbgp1"
+            android:orientation="vertical">
+        <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Option 1"
+                     android:id="@+id/rdb1"/>
+
+        <RadioButton
+                android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Option 2"
+                     android:id="@+id/rdb2"/>
+
+    </RadioGroup>
+    <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/toogle1"/>
+</LinearLayout>
